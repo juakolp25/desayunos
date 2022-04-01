@@ -265,26 +265,23 @@ li{
 }
 
 .data-calidad{
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
     align-items: center;
-    margin: auto;
-    padding: 30px 0;
+    text-align: justify;
 }
 
-@media screen and (max-width: 720px){
+/*@media screen and (max-width: 720px){
     .data-calidad{
         grid-template-columns: repeat(2, 1fr);
     }
-}
+}*/
 
 .data{
     display: flex;
-    padding: 10px 30px;
     font-weight: 900;
-    margin: auto;
-    gap: 10px;
 }
 
 .img-data{
@@ -301,25 +298,21 @@ li{
     height: 100%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 720px){
     .data-calidad{
-        display: flex;
         flex-direction: column;
-        margin: auto;
-        
-        justify-content: flex-start;
         align-items: flex-start;
     }
 
     .data{
-        margin: 20px 0;
+        margin: 10px 0;
     }
 }
 
 .contactos{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
     text-align: justify;
     border-top: var(--border-bottom);
@@ -340,20 +333,25 @@ li{
     }
 }
 
+.lista-contacto{
+    width: 180px;
+    height: auto;
+    padding: 5px;
+}
+
 .contactos-section h4{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 
 .img-pago{
-    width: 270px;
+    width: 170px;
     height: 80px;
 }
 
 .img-pago img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 footer{
@@ -491,7 +489,7 @@ input, textarea, button{
 .container-nosotros{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -503,14 +501,14 @@ input, textarea, button{
     margin: auto;
 }
 
-.img-nosotros .img{
+.img-nosotros .block-nosotros{
     width: 100%;
     max-height: 100%;
     align-items: center;
 }
 
-.img img{
-    width: 80%;
+.block-nosotros img{
+    width: 100%;
     height: 300px;
     margin: auto;
     object-fit: contain;
@@ -536,7 +534,7 @@ input, textarea, button{
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 720px){
     .container-nosotros{
         width: 95%;
         flex-direction: column;
