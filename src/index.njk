@@ -1,0 +1,20 @@
+---
+title: 'Inicio'
+layout: 'base.njk'
+---
+
+    <div class="container-principal">
+        <main class="main">
+            <div class="img-header">
+                <img src="imagenes/inicio3.jpg" alt="image">
+            </div>
+            <div class="container-grid">
+                {%- for post in collections.featured | reverse -%}
+                {% include 'img-seccion.njk' %}
+                {%- endfor %}
+            </div>
+
+    {% include 'calidad.njk' %}
+
+        </main>
+    </div>
