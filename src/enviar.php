@@ -16,12 +16,9 @@ $message .= "Telefono de contacto: ".$phone." \r\n";
 $message .= "Mensaje: ".$_POST['coment']." \r\n";
 $message .= "Enviado el: ".date('d/m/Y', time());
 
-$para = 'juaquingonzalez012@gmail.com';
+$para = 'mariasalvetti.desayunos2020@gmail.com';
 $asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
-header("alert(mensaje enviado)");
 }
 ?>
-
-//mariasalvetti.desayunos2020@gmail.com//
