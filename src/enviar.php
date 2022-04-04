@@ -20,7 +20,7 @@ $para = 'juaquingonzalez012@gmail.com';
 $asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
-header("Location:/contacto/");
+header("alert(mensaje enviado)");
 }
 ?>
 
