@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy('./src/script.js');
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/admin');
+    eleventyConfig.addPassthroughCopy('./src/enviar.php');
     
     return{
         dir: {
