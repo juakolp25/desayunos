@@ -373,7 +373,7 @@ footer{
     background-color: var(--bg-header);
     color: var(--color-text);
     display: flex;
-    font-size: 1.25rem;
+    font-size: 1rem;;
     padding: 10px;
 }
 
