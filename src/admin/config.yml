@@ -5,13 +5,13 @@ media_folder: "public/assets/assets"
 public_folder: "/assets/assets"
 collections: 
   - name: "blog"
-   label: "Blog"
-   folder: "src/blog"
-   create: true
-   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-   fields: 
-   - { label: "Title", name: "title", widget: "string" }
-   - { label: "Description", name: "description", widget: "string" }
-   - { label: "Precio", name: "precio", widget: "string" }
-   - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-   - { label: "Featured Image", name: "image", widget: "image" }
+  label: "Blog"
+  folder: "src/blog"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields: 
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Description", name: "description", widget: "string" }
+  - { label: "Precio", name: "precio", widget: "string" }
+  - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+  - { label: "Featured Image", name: "image", widget: "image" }
