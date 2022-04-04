@@ -1,7 +1,9 @@
 ---
-title: Desayuno
-image: ../assets/assets/article-2.jpeg
+title: Desayuno spiderman
+description: "Se entrega envuelto con moño y tags con frases "
 precio: $3000
-tags: ["post", "featured"] 
-description: Se entrega envuelto con moño y tags con frases a eleccion, se pueden agregar mini globos con forma de corazon
+tags:
+  - post
+  - featured
+image: ../assets/assets/article-2.jpeg
 ---
