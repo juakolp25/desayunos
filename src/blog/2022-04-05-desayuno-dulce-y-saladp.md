@@ -1,5 +1,5 @@
 ---
-title: desayuno dulce y saladp
+title: Desayuno dulce y salado
 description: Se entrega envuelto con moño y tags con frases
 precio: "3600"
 tags:
