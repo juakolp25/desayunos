@@ -12,6 +12,6 @@ collections:
     fields: 
      - { label: "Title", name: "title", widget: "string" }
      - { label: "Description", name: "description", widget: "string", default: "Se entrega envuelto con moño y tags con frases a eleccion, se pueden agregar mini globos con forma de corazon" }
-     - { label: "Precio", name: "precio", widget: "string" }
+     - { label: "Precio", name: "precio", widget: "string", default: "$"}
      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
      - { label: "Featured Image", name: "image", widget: "image" }
