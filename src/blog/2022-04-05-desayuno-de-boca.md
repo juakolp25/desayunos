@@ -1,5 +1,5 @@
 ---
-title: desayuno de Boca
+title: Desayuno de Boca
 description: "Se entrega envuelto con moño y tags con frases "
 precio: "3300"
 tags:
