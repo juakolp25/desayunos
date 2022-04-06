@@ -4,5 +4,5 @@ description: Se entrega envuelto con moño y tags con frases
 precio: "3400"
 tags:
   - post
-image: /assets/assets/263105037_418997203217335_2632426784363308771_n.jpg
+image: /assets/assets/img-20220404-wa0051.jpg
 ---
