@@ -164,7 +164,7 @@ main{
 }
 
 .img-header{
-    width: 100%;
+    width: 95%;
     height: 500px;
     padding: 10px 50px;
 }
@@ -172,8 +172,8 @@ main{
 .img-header img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    justify-content: center;
+    object-position: center;
+    object-fit: contain;
 }
 
 .container-grid{
