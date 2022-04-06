@@ -4,6 +4,7 @@
     --color-link: rgb(73, 102, 145);
     --border-bottom: 1px solid rgb(99, 99, 247);
     --color-text: rgb(238, 234, 234);
+    --border-color: rgb(99, 99, 247);
 }
 
 *{
@@ -561,6 +562,24 @@ input, textarea, button{
     .text-nosotros{
         margin: auto;
     }
+}
+
+.text-nosotros-inicio{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border-top: 1px solid var(--border-color);
+    padding: 10px;
+}
+
+.text-nosotros-inicio h4{
+    font-size: 3vh;
+}
+
+.block-text-inicio{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
 }
 
 .red{
