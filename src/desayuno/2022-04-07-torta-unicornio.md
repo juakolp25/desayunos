@@ -1,9 +1,9 @@
 ---
-title: "Desayuno de Gatito "
+title: Desayuno corazones purpura
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 3300
+precio: $ 3500
 tags:
   - post
   - featured
-image: ../assets/assets/article-3.jpeg
+image: /assets/assets/img-20220404-wa0054.jpg
 ---
