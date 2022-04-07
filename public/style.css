@@ -202,6 +202,18 @@ main{
     object-fit: fill;
 }
 
+.inicio-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.inicio-section h2{
+    text-transform: uppercase;
+    font-size: 2.3vh;
+}
+
 .container-grid{
     width: 98%;
     margin: auto;

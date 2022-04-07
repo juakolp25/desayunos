@@ -1,0 +1,27 @@
+---
+title: 'Desayuno DyM | Picadas'
+layout: 'base.njk'
+---
+
+
+            <div class="text-title">
+                <h3>Catalogo de Picadas</h3>
+            </div>
+            <div class="container-grid">
+                {%- for picada in collections.picada -%}
+                <div class="grid-img">
+                    <div class="container-img" id="img">
+                        <div class="img-catalogo">
+                            <img src="{{ picada.data.image }}" alt="desayunos, picadas y tortas">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="text-center">
+                            <h5>{{ picada.data.title }}</h5>
+                            <p>{{ picada.data.description }}</p>
+                            <span>{{ picada.data.precio }}</span>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>

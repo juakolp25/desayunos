@@ -15,8 +15,9 @@ collections:
      - { label: "Precio", name: "precio", widget: "string", default: "$"}
      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
      - { label: "Featured Image", name: "image", widget: "image" }
-  - name: "torta"
-    label: "torta"
+collections:
+  - name: "Torta"
+    label: "Torta"
     folder: "src/torta"
     create: true   
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -25,4 +26,16 @@ collections:
      - { label: "Description", name: "description", widget: "string", default: "Se entrega envuelto con moño y tags con frases a eleccion, se pueden agregar mini globos con forma de corazon" }
      - { label: "Precio", name: "precio", widget: "string", default: "$"}
      - { label: "Tags", name: "tags", widget: "list", default: ["torta"] }
+     - { label: "Featured Image", name: "image", widget: "image" }
+collections:  
+  - name: "Picada"
+    label: "Picada"
+    folder: "src/picada"
+    create: true   
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+     - { label: "Title", name: "title", widget: "string" }
+     - { label: "Description", name: "description", widget: "string", default: "Se entrega envuelto con moño y tags con frases a eleccion, se pueden agregar mini globos con forma de corazon" }
+     - { label: "Precio", name: "precio", widget: "string", default: "$"}
+     - { label: "Tags", name: "tags", widget: "list", default: ["picada"] }
      - { label: "Featured Image", name: "image", widget: "image" }
