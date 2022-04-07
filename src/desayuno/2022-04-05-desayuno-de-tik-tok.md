@@ -1,9 +1,8 @@
 ---
-title: Desayuno de tik-tok
-description: Se entrega envuelto con moño y tags con frases
-precio: $ 3200
+title: Torta de la sirenita
+description: "Se entrega con caja visor y moño "
+precio: $ 5300
 tags:
-  - post
   - featured
 image: /assets/assets/sirenaa.jpg
 ---
