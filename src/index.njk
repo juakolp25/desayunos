@@ -19,7 +19,7 @@ layout: 'base.njk'
             <section class="inicio-section">
                 <h2>Tortas</h2>
                 <div class="container-grid">
-                {%- for torta in collections2.featured | reverse -%}
+                {%- for torta in collections.torta -%}
                 <div class="grid-img">
                     <div class="container-img" id="img">
                         <div class="img-catalogo">
@@ -35,27 +35,27 @@ layout: 'base.njk'
                     </div>
                 </div>
                 {%- endfor %}
-                </div>
+            </div>
             </section>
             <section class="inicio-section">
                 <h2>Picadas</h2>
                 <div class="container-grid">
-                {%- for picada in collections3.featured | reverse -%}
-                <div class="grid-img">
-                    <div class="container-img" id="img">
-                        <div class="img-catalogo">
-                            <img src="{{ picada.data.image }}" alt="desayunos, picadas y tortas">
+                    {%- for picada in collections.picada -%}
+                    <div class="grid-img">
+                        <div class="container-img" id="img">
+                            <div class="img-catalogo">
+                                <img src="{{ picada.data.image }}" alt="desayunos, picadas y tortas">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="text-center">
+                                <h5>{{ picada.data.title }}</h5>
+                                <p>{{ picada.data.description }}</p>
+                                <span>{{ picada.data.precio }}</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="text">
-                        <div class="text-center">
-                            <h5>{{ picada.data.title }}</h5>
-                            <p>{{ picada.data.description }}</p>
-                            <span>{{ picada.data.precio }}</span>
-                        </div>
-                    </div>
-                </div>
-                {%- endfor %}
+                    {%- endfor %}
                 </div>
             </section>
             <div class="text-nosotros-inicio">
