@@ -1,6 +1,6 @@
 ---
 title: "Desayuno de Unicornio "
-description: se entrega envuelto con moño y tags con frases
+description: Se entrega envuelto con moño y tags con frases
 precio: $ 3200
 tags:
   - post
