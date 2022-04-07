@@ -19,28 +19,28 @@ layout: 'base.njk'
             <section class="inicio-section">
                 <h2>Tortas</h2>
                 <div class="container-grid">
-                {%- for torta in collections.torta -%}
-                <div class="grid-img">
-                    <div class="container-img" id="img">
-                        <div class="img-catalogo">
-                            <img src="{{ torta.data.image }}" alt="desayunos, picadas y tortas">
+                    {%- for torta in collections.featured -%}
+                    <div class="grid-img">
+                        <div class="container-img" id="img">
+                            <div class="img-catalogo">
+                                <img src="{{ torta.data.image }}" alt="desayunos, picadas y tortas">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="text-center">
+                                <h5>{{ torta.data.title }}</h5>
+                                <p>{{ torta.data.description }}</p>
+                                <span>{{ torta.data.precio }}</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="text">
-                        <div class="text-center">
-                            <h5>{{ torta.data.title }}</h5>
-                            <p>{{ torta.data.description }}</p>
-                            <span>{{ torta.data.precio }}</span>
-                        </div>
-                    </div>
+                    {%- endfor %}
                 </div>
-                {%- endfor %}
-            </div>
             </section>
             <section class="inicio-section">
                 <h2>Picadas</h2>
                 <div class="container-grid">
-                    {%- for picada in collections.picada -%}
+                    {%- for picada in collections.featured -%}
                     <div class="grid-img">
                         <div class="container-img" id="img">
                             <div class="img-catalogo">
