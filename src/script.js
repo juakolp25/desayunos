@@ -7,6 +7,23 @@ barsToggle.addEventListener('click', ()=>{
     navMenu.classList.toggle('menu-visible');
 })
 
+const subMenuBtn = document.querySelectorAll(".submenu-btn");
+for (let i = 0; i < subMenuBtn.length; i++) {
+    subMenuBtn[i].addEventListener("click", function(){
+       if(window.innerWidth < 720) {
+        const subMenu = this.nextElementSibling;
+        const height = subMenu.scrollHeight;
+        if (subMenu.classList.contains("desplegar")) {
+            subMenu.classList.remove("desplegar");
+            subMenu.removeAttribute("style");
+        }else{
+            subMenu.classList.add("desplegar")
+            subMenu.style.height = height + "px";
+        }
+       }
+    });
+}
+
 /*Validacion de formulario*/
 
 const nombre = document.getElementById("name");

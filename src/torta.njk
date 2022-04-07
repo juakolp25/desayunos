@@ -1,0 +1,27 @@
+---
+title: 'Desayuno DyM | Tortas'
+layout: 'base.njk'
+---
+
+
+            <div class="text-title">
+                <h3>Catalogo de Tortas</h3>
+            </div>
+            <div class="container-grid">
+                {%- for torta in collections.torta -%}
+                <div class="grid-img">
+                    <div class="container-img" id="img">
+                        <div class="img-catalogo">
+                            <img src="{{ torta.data.image }}" alt="desayunos, picadas y tortas">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="text-center">
+                            <h5>{{ torta.data.title }}</h5>
+                            <p>{{ torta.data.description }}</p>
+                            <span>{{ torta.data.precio }}</span>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>

@@ -108,6 +108,20 @@ li{
     display: none;
 }
 
+.submenu{
+    background-color: var(--bg-header);
+    height: auto;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container-submenu:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
 @media screen and (max-width: 720px){
     .bars-toggle{
         display: block;
@@ -129,6 +143,18 @@ li{
         text-align: center;
         justify-content: center;
         left: -100%;
+    }
+
+    .submenu{
+        display: block;
+        height: 0;
+        transition: all 0.5s;
+        overflow: hidden;
+        background-color: rgb(45, 54, 73);
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
     }
 
     .link-mobile{
