@@ -1,8 +1,9 @@
 ---
-title: Torta Unicornio
-description: Incluye caja visor con moño
-precio: $ 5000
+title: Desayuno corazones purpura
+description: "Se entrega envuelto con moño y tags con frases "
+precio: $ 3500
 tags:
+  - post
   - featured
 image: /assets/assets/img-20220404-wa0054.jpg
 ---
