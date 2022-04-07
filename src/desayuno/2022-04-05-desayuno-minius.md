@@ -1,7 +1,7 @@
 ---
-title: "Desayuno minius "
-description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 3300
+title: Torta Drpcake
+description: "Se entrega con caja visor y moño "
+precio: $ 5300
 tags:
   - post
   - featured
