@@ -5,5 +5,5 @@ precio: $ 3300
 tags:
   - post
   - featured
-image: /assets/assets/img-20220329-wa0011.jpg
+image: /assets/assets/torta-dripcake_edited.jpg
 ---
