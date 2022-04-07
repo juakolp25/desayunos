@@ -15,6 +15,7 @@ collections:
      - { label: "Precio", name: "precio", widget: "string", default: "$"}
      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
      - { label: "Featured Image", name: "image", widget: "image" }
+collections2:
   - name: "Torta"
     label: "Torta"
     folder: "src/torta"
@@ -26,6 +27,7 @@ collections:
      - { label: "Precio", name: "precio", widget: "string", default: "$"}
      - { label: "Tags", name: "tags", widget: "list", default: ["torta"] }
      - { label: "Featured Image", name: "image", widget: "image" }
+collections3:
   - name: "Picada"
     label: "Picada"
     folder: "src/picada"
