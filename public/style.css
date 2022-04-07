@@ -207,11 +207,13 @@ main{
     height: auto;
     display: block;
     text-align: center;
+    margin: 20px 0;
+    border-bottom: var(--border-bottom);
 }
 
 .inicio-section h2{
     text-transform: uppercase;
-    font-size: 2.3vh;
+    font-size: 3vh;
 }
 
 .container-grid{
@@ -606,7 +608,6 @@ input, textarea, button{
     width: 100%;
     text-align: center;
     height: auto;
-    border-top: 1px solid var(--border-color);
     padding: 10px;
 }
 
