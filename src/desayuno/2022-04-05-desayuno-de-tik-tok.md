@@ -5,5 +5,5 @@ precio: $ 3200
 tags:
   - post
   - featured
-image: /assets/assets/277352449_490567359393652_7770219203536521115_n.jpg
+image: /assets/assets/sirenaa.jpg
 ---
