@@ -487,11 +487,13 @@ footer{
     padding: 10px;
     align-items: center;
     text-align: center;
+    font-family: monospace;
+    font-size: 1.15rem;
+    text-transform: uppercase;
 }
 
-.text-title h3{
+.text-title h3, .text-title h2{
     width: max-content;
-    text-transform: uppercase;
     border-bottom: var(--border-bottom);
     margin: auto;
     padding: 0 10px;
@@ -689,4 +691,48 @@ input, textarea, button{
 .green{
     color: rgb(3, 83, 3);
     transition: 1.2s;
+}
+
+.container-politica{
+    width: 95%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.text-politica{
+    font-size: 1.05rem;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.text-span_politica{
+    display: block;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.title-second_politica{
+    width: max-content;
+    font-size: 1.20rem;
+    margin: 0 0 10px 15px;
+    border-bottom: var(--border-bottom);
+    text-transform: uppercase;
+}
+
+.title-thr_politica{
+    font-size: 1.18rem;
+    padding: 5px;
+}
+
+.title-frd_politica{
+    font-size: 1.15rem;
+    padding: 5px;
+}
+
+.link-politca_access:hover{
+    color: rgb(119, 117, 117);
+    transition: 0.7s;
 }
