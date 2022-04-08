@@ -7,8 +7,14 @@ barsToggle.addEventListener('click', ()=>{
     navMenu.classList.toggle('menu-visible');
 })
 
-const subMenuBtn = document.querySelectorAll(".submenu-btn");
-for (let i = 0; i < subMenuBtn.length; i++) {
+const subMenuBtn = document.getElementById("submenu-btn");
+const subMenu = document.getElementById("submenu");
+
+subMenuBtn.addEventListener('click', ()=>{
+    subMenu.classList.toggle('submenu_visible');
+    subMenu.style.transition = '2s';
+});
+/*for (let i = 0; i < subMenuBtn.length; i++) {
     subMenuBtn[i].addEventListener("click", function(){
        if(window.innerWidth < 720) {
         const subMenu = this.nextElementSibling;
@@ -22,7 +28,7 @@ for (let i = 0; i < subMenuBtn.length; i++) {
         }
        }
     });
-}
+}*/
 
 /*Validacion de formulario*/
 
