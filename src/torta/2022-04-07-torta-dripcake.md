@@ -1,9 +1,9 @@
 ---
-title: Torta Dripcake
+title: "Torta Sirenita "
 description: Incluye caja visor con moño
 precio: $5300
 tags:
   - torta
   - cake
-image: /assets/assets/torta-dripcake_edited.jpg
+image: /assets/assets/sirenaa.jpg
 ---
