@@ -736,3 +736,7 @@ input, textarea, button{
     color: rgb(119, 117, 117);
     transition: 0.7s;
 }
+
+.margin-bottom_title{
+    margin-bottom: 8px;
+}
