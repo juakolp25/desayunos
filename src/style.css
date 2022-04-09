@@ -217,7 +217,7 @@ main{
     display: block;
     text-align: center;
     margin: 20px 0;
-    border-bottom: var(--border-bottom);
+    /*border-bottom: var(--border-bottom);*/
 }
 
 .inicio-section h2{
