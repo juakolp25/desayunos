@@ -5,5 +5,5 @@ precio: $5300
 tags:
   - torta
   - cake
-image: /assets/assets/sirenaa.jpg
+image: /assets/assets/ultima-de-la-sirenita.jpg
 ---

@@ -5,5 +5,5 @@ precio: $ 5300
 tags:
   - torta
   - cake
-image: /assets/assets/torta-dripcake_edited.jpg
+image: /assets/assets/torta-dripcake-nueva_edited_edited.jpg
 ---
