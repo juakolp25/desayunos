@@ -222,7 +222,7 @@ main{
 
 .inicio-section h2{
     text-transform: uppercase;
-    font-size: 3vh;
+    font-size: 1.25rem;
 }
 
 .container-grid{
@@ -265,7 +265,7 @@ main{
     text-align: center;
     width: 100%;
     height: 350px;
-    /*border-bottom: var(--border-bottom);*/
+    border-bottom: var(--border-bottom);
     margin: auto;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.55);
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.55);
