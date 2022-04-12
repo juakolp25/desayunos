@@ -1,5 +1,5 @@
 ---
-title: Desayuno de barbie
+title: Desayuno cisne
 description: "Se entrega envuelto con moño y tags con frases "
 precio: $ 4000
 tags:
