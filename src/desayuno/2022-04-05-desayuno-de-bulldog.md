@@ -1,8 +1,8 @@
 ---
-title: Desayuno de bulldog
+title: "Desayuno de unicornio "
 description: "Se entrega envuelto con moño y tags con frases "
-precio: " $ 4300"
+precio: " $ 3800"
 tags:
   - post
-image: /assets/assets/img-20220404-wa0058.jpg
+image: /assets/assets/img_20210608_040441_524.jpg
 ---
