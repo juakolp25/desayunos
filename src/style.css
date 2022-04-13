@@ -199,9 +199,9 @@ main{
 }
 
 .img-header{
-    width: 95%;
     height: 500px;
     padding: 10px 50px;
+    margin: auto;
 }
 
 .img-header img{
