@@ -1,8 +1,8 @@
 ---
-title: Desayuno de bulldog
+title: Desayuno de chocolate
 description: "Se entrega envuelto con moño y tags con frases "
-precio: " $ 4300"
+precio: " $ 4200"
 tags:
   - post
-image: /assets/assets/img-20220404-wa0058.jpg
+image: /assets/assets/article-1.jpeg
 ---

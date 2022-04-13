@@ -1,8 +1,8 @@
 ---
-title: "Desayuno chocolate "
+title: Desayuno unicornio
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 4200
+precio: $ 3800
 tags:
   - post
-image: ../assets/assets/article-1.jpeg
+image: /assets/assets/img_20210608_040441_524.jpg
 ---

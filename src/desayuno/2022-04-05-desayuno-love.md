@@ -1,8 +1,8 @@
 ---
-title: Desayuno LOVE
+title: Desayuno boca
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 4200
+precio: $ 4000
 tags:
   - post
-image: /assets/assets/img-20220404-wa0048.jpg
+image: /assets/assets/desayuno-de-boca-nueva-.jpg
 ---

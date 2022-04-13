@@ -1,8 +1,8 @@
 ---
-title: "Desayuno de frutilla "
+title: Desayuno D&M
 description: Se entrega envuelto con moño y tags con frases
 precio: $ 4000
 tags:
   - post
-image: /assets/assets/frutilla-nueva.jpg
+image: /assets/assets/img-20220404-wa0053.jpg
 ---

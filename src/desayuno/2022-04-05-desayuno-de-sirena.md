@@ -1,8 +1,8 @@
 ---
-title: Desayuno de sirena
+title: Desayuno de corazones
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 3800
+precio: $ 4000
 tags:
   - post
-image: /assets/assets/img-20220317-wa0001.jpg
+image: /assets/assets/img-20220404-wa0062.jpg
 ---
