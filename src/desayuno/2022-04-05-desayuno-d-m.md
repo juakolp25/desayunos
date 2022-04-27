@@ -1,8 +1,8 @@
 ---
-title: Desayuno de frutillas
+title: Desayuno de gatito
 description: Se entrega envuelto con moño y tags con frases
-precio: $ 4250
+precio: $ 4150
 tags:
   - post
-image: /assets/assets/frutilla-nueva.jpg
+image: /assets/assets/article-3.jpeg
 ---
