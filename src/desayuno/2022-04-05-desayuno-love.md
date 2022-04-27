@@ -1,7 +1,7 @@
 ---
-title: Desayuno boca
+title: Desayuno Boca
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 4000
+precio: $ 4100
 tags:
   - post
 image: /assets/assets/desayuno-de-boca-nueva-.jpg
