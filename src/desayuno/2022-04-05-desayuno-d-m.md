@@ -1,7 +1,7 @@
 ---
 title: Desayuno de frutillas
 description: Se entrega envuelto con moño y tags con frases
-precio: $ 4000
+precio: $ 4250
 tags:
   - post
 image: /assets/assets/frutilla-nueva.jpg
