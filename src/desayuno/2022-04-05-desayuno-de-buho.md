@@ -1,8 +1,8 @@
 ---
-title: Desayuno de buho
+title: Desayuno de frutilla
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 4300
+precio: $ 4250
 tags:
   - post
-image: /assets/assets/buho-nueva.jpg
+image: /assets/assets/frutilla-nueva.jpg
 ---
