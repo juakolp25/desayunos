@@ -1,5 +1,5 @@
 ---
-title: "Torta de perrito "
+title: Torta de Perrito
 description: Incluye caja visor con moño
 precio: $5300
 tags:
