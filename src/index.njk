@@ -11,7 +11,7 @@ layout: 'base.njk'
             <section class="inicio-section">
                 <h2>Desayunos</h2>
                 <div class="container-grid">
-                    {%- for post in collections.featured | reverse -%}
+                    {%- for post in collections.featured -%}
                     {% include 'img-seccion.njk' %}
                     {%- endfor %}
                 </div>
