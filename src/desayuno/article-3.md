@@ -1,7 +1,7 @@
 ---
 title: "Desayuno de Gatito "
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 4150
+precio: $ 4500
 tags:
   - post
   - featured
