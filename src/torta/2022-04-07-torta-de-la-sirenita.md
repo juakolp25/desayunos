@@ -1,7 +1,7 @@
 ---
 title: Torta Dripcake
 description: Incluye caja visor con moño
-precio: $ 5300
+precio: $ 7000
 tags:
   - torta
   - cake
