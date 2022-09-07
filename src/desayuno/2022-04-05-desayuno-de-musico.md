@@ -1,7 +1,7 @@
 ---
 title: "Desayuno de musico "
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 5000
+precio: $ 5500
 tags:
   - post
 image: /assets/assets/img-20220404-wa0055.jpg
