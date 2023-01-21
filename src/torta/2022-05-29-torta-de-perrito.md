@@ -1,7 +1,7 @@
 ---
 title: "Torta de perrito "
 description: Incluye caja visor y moño
-precio: $7000
+precio: $10000
 tags:
   - torta
 image: /assets/assets/torta-de-perrito.jpg
