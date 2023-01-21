@@ -1,7 +1,7 @@
 ---
 title: "Torta de la cenicienta "
 description: Incluye caja visor con moño
-precio: $ 7000
+precio: $ 10000
 tags:
   - torta
   - cake
