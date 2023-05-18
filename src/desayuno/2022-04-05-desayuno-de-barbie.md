@@ -1,7 +1,7 @@
 ---
 title: Desayuno cisne
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 6500
+precio: $ 7800
 tags:
   - post
 image: /assets/assets/img-20220404-wa0051.jpg
