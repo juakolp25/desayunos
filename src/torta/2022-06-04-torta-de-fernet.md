@@ -1,7 +1,7 @@
 ---
 title: Torta de Fernet
 description: "incluye caja visor con moño "
-precio: $10000
+precio: $17000
 tags:
   - torta
 image: /assets/assets/torta-fernet_edited.jpg
