@@ -1,7 +1,7 @@
 ---
 title: "Torta Sirenita "
 description: Incluye caja visor con moño
-precio: $12000
+precio: "17000"
 tags:
   - torta
   - cake
