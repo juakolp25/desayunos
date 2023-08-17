@@ -1,7 +1,7 @@
 ---
 title: Torta de unicornio
 description: Incluye caja visor con moño
-precio: $16000
+precio: $20.000
 tags:
   - torta
   - cake
