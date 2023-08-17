@@ -1,7 +1,7 @@
 ---
 title: "Torta toy store "
 description: "Se entrega en caja visor y moño "
-precio: $13000
+precio: $16000
 tags:
   - torta
 image: /assets/assets/fb_img_1679278917423.jpg
