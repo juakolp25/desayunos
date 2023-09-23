@@ -1,7 +1,7 @@
 ---
 title: Desayuno Tik-Tok
 description: "Se entrega envuelto con moño y tags con frases "
-precio: $ 8700
+precio: "11200"
 tags:
   - post
   - featured
