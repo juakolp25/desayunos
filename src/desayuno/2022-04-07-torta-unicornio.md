@@ -1,7 +1,7 @@
 ---
 title: Desayuno corazones purpura
 description: "Se entrega envuelto con moño y tags con frases "
-precio: "14200"
+precio: "22500"
 tags:
   - post
   - featured
