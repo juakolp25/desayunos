@@ -1,7 +1,7 @@
 ---
 title: "Torta de la cenicienta "
 description: Incluye caja visor con moño
-precio: CONSULTAR
+precio: "CONSULTAR PRECIO "
 tags:
   - torta
   - cake
