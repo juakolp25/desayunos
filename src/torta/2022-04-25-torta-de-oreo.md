@@ -1,7 +1,7 @@
 ---
 title: Torta de oreo
 description: "se entrega en caja con moño "
-precio: $15500
+precio: "CONSULTAR PRECIO "
 tags:
   - torta
 image: /assets/assets/torta-de-oreo.jpg
