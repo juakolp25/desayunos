@@ -1,7 +1,7 @@
 ---
 title: Desayuno de sirenita
 description: Se entrega envuelto con moño y tags con frases
-precio: "24375"
+precio: "28500"
 tags:
   - post
 image: /assets/assets/img-20220317-wa0001.jpg
