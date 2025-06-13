@@ -1,7 +1,7 @@
 ---
 title: Desayuno de minius
 description: "Se entrega envuelto con moño y tags con frases "
-precio: "24375"
+precio: "60000"
 tags:
   - post
   - featured
